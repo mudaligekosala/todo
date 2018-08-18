@@ -1,0 +1,1 @@
+export const baseUrl = `https://todo-d1ad7.firebaseio.com`;
