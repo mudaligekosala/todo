@@ -4,10 +4,10 @@ import { View, StyleSheet, TextInput, TouchableOpacity, Text } from 'react-nativ
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 
-import { addTodos } from '../../../store/actions';
+import { addTodos } from '../../store/actions';
 
 //import components
-import rowData from '../../components/rowData.js';
+import ListItemView from '../../components/rowData.js';
 
 class HomePage extends Component {
     constructor(props) {
@@ -60,7 +60,7 @@ class HomePage extends Component {
                 </TouchableOpacity>
 
                 <Text>sshh</Text>
-            <rowData/>
+<ListItemView/>
             </View>
         )
     }

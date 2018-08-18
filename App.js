@@ -2,7 +2,7 @@ import React from 'react';
 import { Navigation } from 'react-native-navigation';
 import { Provider } from 'react-redux';
 
-import HomePage from './src/components/views/Home';
+import HomePage from './src/views/Home';
 
 import configStore from './src/store/store';
 

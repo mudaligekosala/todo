@@ -1,11 +1,12 @@
 import React from 'react';
-import { StyleSheet, View,Text } from 'react-native';
+import { StyleSheet, View, Text } from 'react-native';
 
-const rowData = ({props}) => (
+const rowData = (props) =>{
+  return(
 <View style={styles.container}>
     <Text style={styles.text}>Hello</Text>
   </View>
-)
+)}
 
 const styles = StyleSheet.create({
   container: {
@@ -20,5 +21,7 @@ const styles = StyleSheet.create({
 },
 
 });
+
+export default rowData
 
 
